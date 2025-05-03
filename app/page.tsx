@@ -23,9 +23,9 @@ export default async function Page() {
       {data.map((user, index) => (
         <li key={index}>
           <p>ID: {user.id}</p>
-          <p>Code: {user.code}</p>
-          <p>Name: {user.name}</p>
-          <p>Status: {user.status}</p>
+          <p>รหัสผู้ใช้งาน: {user.code}</p>
+          <p>ชื่อผู้ใช้งาน: {user.name}</p>
+          <p>สถานะ: {user.status}</p>
           <hr />
         </li>
       ))}
